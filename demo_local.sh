@@ -2,7 +2,7 @@
 set -euo pipefail
 
 PORT="${1:-6001}"
-MESSAGE="${2:-Xin chao FIT4012 - Quan & Hieu}"
+MESSAGE="${2:-Xin chao FIT4012 - Duy & Hai}"
 
 echo "[*] Bat dau chay demo Lab 3 tai Port: $PORT"
 
