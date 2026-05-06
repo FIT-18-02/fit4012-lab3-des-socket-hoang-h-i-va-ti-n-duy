@@ -13,8 +13,8 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - Khi demo, giảng viên có thể hỏi chéo bất kỳ thành viên nào về **sender**, **receiver**, **DES-CBC**, **padding**, **threat model** và **ethics**.
 
 ## Team members
-- **Thành viên 1**: Phạm Anh Quân - MSSV: 1871020471
-- **Thành viên 2**: Ngô Văn Hiếu - MSSV: 1871020234
+- **Thành viên 1**: Phạm Hoàng Hải - MSSV: 1871020214
+- **Thành viên 2**: Trần Hữu Tiến Duy - MSSV: 1871020191
 //quanhieu
 ## Task division
 - Thành viên 1 phụ trách chính: Logic mã hóa (des_socket_utils.py), chương trình gửi tin (sender.py) và phân tích rủi ro (threat-model-1page.md).
@@ -22,8 +22,8 @@ Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo 
 - Phần làm chung: Cùng thực hiện chạy Demo, viết báo cáo (report-1page.md) và thực hiện Peer Review.
 
 ## Demo roles
-- **Bạn nào demo Sender / gói tin / log gửi**: Phạm Anh Quân
-- **Bạn nào demo Receiver / giải mã / log nhận**: Ngô Văn Hiếu
+- **Bạn nào demo Sender / gói tin / log gửi**: Phạm Hoàng Hải
+- **Bạn nào demo Receiver / giải mã / log nhận**: Trần Hữu Tiến Duy
 - **Cả hai cùng trả lời threat model và ethics**: Cả 2
 
 ## Mục tiêu học tập
