@@ -4,6 +4,7 @@
 - Thành viên 1: Phạm Hoàng Hải - MSSV: 1871020214
 - Thành viên 2: Trần Hữu Tiến Duy - MSSV: 1871020191
 
+
 ## Mục tiêu
 Mục tiêu của bài lab là xây dựng một hệ thống truyền tin an toàn cơ bản giữa hai máy (Sender và Receiver) thông qua giao thức Socket. Nhóm tập trung vào việc triển khai thuật toán mã hóa đối xứng DES ở chế độ CBC để bảo vệ tính bảo mật của dữ liệu. Qua đó, nhóm hiểu rõ cách đóng gói gói tin (Packet Framing), xử lý Padding PKCS#7 và tầm quan trọng của việc quản lý Khóa/IV trong an toàn thông tin
 
