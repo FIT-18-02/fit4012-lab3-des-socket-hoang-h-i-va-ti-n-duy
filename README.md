@@ -1,6 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/jjUQ5jLa)
 # FIT4012 - Lab 3 - Hệ thống gửi và nhận dữ liệu mã hoá DES qua Socket
 
+
 Chào mừng bạn đến với một chiếc lab nhìn thì hiền nhưng rất biết cách “hỏi xoáy đáp xoay”. Ở lab này, bạn sẽ làm một hệ thống nhỏ gồm **Sender** và **Receiver** chạy qua **TCP socket**, trong đó bản tin được mã hoá bằng **DES-CBC**, có **IV**, có **header độ dài**, và có đủ chỗ để bạn luyện cả kỹ năng kỹ thuật lẫn tư duy bảo mật.
 
 Bài lab bám theo luồng hệ thống trong file hướng dẫn: Sender tạo **DES key 8 byte**, **IV 8 byte**, mã hoá bằng **DES-CBC + PKCS#7**, rồi gửi tuần tự **key + IV + length header + ciphertext**; Receiver lắng nghe socket, nhận đúng thứ tự này rồi giải mã và hiển thị lại bản rõ. Đây là mô hình học tập có chủ đích để quan sát quy trình giao tiếp, **không phải thiết kế an toàn để dùng ngoài đời thật**.
