@@ -1,6 +1,7 @@
 import pytest
 from des_socket_utils import encrypt_des_cbc, decrypt_des_cbc
 
+
 def test_tampered_ciphertext_should_fail_or_change_plaintext():
     """
     Kịch bản: Kẻ tấn công can thiệp vào bản mã (Tamper).
