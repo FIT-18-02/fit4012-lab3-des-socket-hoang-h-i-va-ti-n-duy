@@ -8,8 +8,8 @@
 Mục tiêu của bài lab là xây dựng một hệ thống truyền tin an toàn cơ bản giữa hai máy (Sender và Receiver) thông qua giao thức Socket. Nhóm tập trung vào việc triển khai thuật toán mã hóa đối xứng DES ở chế độ CBC để bảo vệ tính bảo mật của dữ liệu. Qua đó, nhóm hiểu rõ cách đóng gói gói tin (Packet Framing), xử lý Padding PKCS#7 và tầm quan trọng của việc quản lý Khóa/IV trong an toàn thông tin
 
 ## Phân công thực hiện
-Ngô Văn Hiếu: Phụ trách phát triển sender.py, thiết kế cấu trúc Header 20-byte, xây dựng logic mã hóa trong des_socket_utils.py và soạn thảo threat-model-1page.md.
-Phạm Anh Quân: Phụ trách phát triển receiver.py, xử lý hàm đọc dữ liệu chính xác recv_exact, thực hiện toàn bộ các ca kiểm thử tự động (pytest) và quản lý hệ thống logs.
+Phạm Hoàng Hải: Phụ trách phát triển sender.py, thiết kế cấu trúc Header 20-byte, xây dựng logic mã hóa trong des_socket_utils.py và soạn thảo threat-model-1page.md.
+Trần Hữu Tiến Duy : Phụ trách phát triển receiver.py, xử lý hàm đọc dữ liệu chính xác recv_exact, thực hiện toàn bộ các ca kiểm thử tự động (pytest) và quản lý hệ thống logs.
 Làm chung: Hoàn thiện báo cáo, review mã nguồn chéo và thống nhất giao thức truyền nhận
 
 ## Cách làm
