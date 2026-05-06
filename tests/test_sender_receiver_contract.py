@@ -7,6 +7,7 @@ def test_protocol_contract_order_is_key_iv_length_ciphertext():
     test_key = b"12345678"
     test_iv = b"abcdefgh"
     
+    
     # 1. Thực hiện mã hóa
     key, iv, cipher_bytes = encrypt_des_cbc(test_plain, key=test_key, iv=test_iv)
     
