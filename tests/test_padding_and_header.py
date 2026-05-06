@@ -11,7 +11,7 @@ def test_build_packet_contains_correct_length():
     # 1. Chuẩn bị dữ liệu mẫu (7 bytes, cần được pad lên 8 bytes bên trong encrypt_des_cbc)
     message = b"FIT4012"
     key, iv, cipher_bytes = encrypt_des_cbc(message)
-    
+
     # 2. Đóng gói
     packet = build_packet(key, iv, cipher_bytes)
     
