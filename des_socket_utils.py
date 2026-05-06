@@ -3,6 +3,7 @@ import struct
 from typing import Tuple
 from Crypto.Cipher import DES
 
+
 BLOCK_SIZE = 8
 HEADER_SIZE = 8 + 8 + 4  # Key (8) + IV (8) + Length (4)
 
