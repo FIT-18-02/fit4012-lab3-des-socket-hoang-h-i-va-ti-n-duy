@@ -8,7 +8,6 @@ TIMEOUT = float(os.getenv('SOCKET_TIMEOUT', '10'))
 OUTPUT_FILE = os.getenv('RECEIVER_OUTPUT_FILE')
 LOG_FILE = os.getenv('RECEIVER_LOG_FILE')
 
-
 def main() -> None:
     try:
         with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
