@@ -1,6 +1,7 @@
 import pytest
 from des_socket_utils import encrypt_des_cbc, decrypt_des_cbc
 
+
 def test_wrong_key_should_not_recover_original_plaintext():
     """
     Kiểm tra rằng khi dùng sai Key, dữ liệu khôi phục không được trùng với bản gốc
